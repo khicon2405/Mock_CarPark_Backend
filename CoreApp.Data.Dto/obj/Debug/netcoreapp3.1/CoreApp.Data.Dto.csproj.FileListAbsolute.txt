@@ -1,0 +1,16 @@
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.csproj.AssemblyReference.cache
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.AssemblyInfoInputs.cache
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.AssemblyInfo.cs
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.csproj.CoreCompileInputs.cache
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\CoreApp.Data.Dto.deps.json
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\CoreApp.Data.Dto.dll
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\CoreApp.Data.Dto.pdb
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\Common.dll
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\Common.pdb
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.csproj.CopyComplete
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.dll
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.pdb
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\CoreApp.Data.Dto.runtimeconfig.json
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\bin\Debug\netcoreapp3.1\CoreApp.Data.Dto.runtimeconfig.dev.json
+E:\C#\Project\Demo\App_Demo\CoreApp.Data.Dto\obj\Debug\netcoreapp3.1\CoreApp.Data.Dto.genruntimeconfig.cache

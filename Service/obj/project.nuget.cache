@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ddGBReuLwptOmn2Q69cAi32lAhynQLw+bS5Cf2TTWebe3/pTmlZpFUA+nKZ9hlA7/dd5ekVhnUaoMa1DM4qMCg==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\Project\\Demo\\App_Demo\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

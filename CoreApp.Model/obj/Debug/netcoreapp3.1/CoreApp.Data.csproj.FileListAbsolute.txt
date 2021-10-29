@@ -1,0 +1,13 @@
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.csproj.AssemblyReference.cache
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.AssemblyInfoInputs.cache
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.AssemblyInfo.cs
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.csproj.CoreCompileInputs.cache
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\bin\Debug\netcoreapp3.1\CoreApp.Data.deps.json
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\bin\Debug\netcoreapp3.1\CoreApp.Data.dll
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\bin\Debug\netcoreapp3.1\CoreApp.Data.pdb
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.dll
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.pdb
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\bin\Debug\netcoreapp3.1\CoreApp.Data.runtimeconfig.json
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\bin\Debug\netcoreapp3.1\CoreApp.Data.runtimeconfig.dev.json
+E:\C#\Project\Demo\App_Demo\CoreApp.Model\obj\Debug\netcoreapp3.1\CoreApp.Data.genruntimeconfig.cache
