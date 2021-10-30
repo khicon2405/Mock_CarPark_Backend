@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\CoreApp.Data.Dto\CoreApp.Data.Dto.csproj" />
     <ProjectReference Include="C:\Users\DELL\Desktop\App_Demo\CoreApp.Model\CoreApp.Data.csproj" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\CoreApp.Service.csproj": {}
+    "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\CoreApp.Service.csproj": {}
   },
   "projects": {
     "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj": {
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj": {
-                "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj"
+              "E:\\C#\\Project\\Demo\\Mock_CarPark_Backend\\Common\\Common.csproj": {
+                "projectPath": "E:\\C#\\Project\\Demo\\Mock_CarPark_Backend\\Common\\Common.csproj"
               }
             }
           }
@@ -106,116 +106,14 @@
         }
       }
     },
-    "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\CoreApp.Service.csproj": {
+    "E:\\C#\\Project\\Demo\\Mock_CarPark_Backend\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\CoreApp.Service.csproj",
-        "projectName": "CoreApp.Service",
-        "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\CoreApp.Service.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj"
-              },
-              "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj": {
-                "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj"
-              },
-              "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj": {
-                "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.20, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj",
+        "projectUniqueName": "E:\\C#\\Project\\Demo\\Mock_CarPark_Backend\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj",
+        "projectPath": "E:\\C#\\Project\\Demo\\Mock_CarPark_Backend\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\obj\\",
+        "outputPath": "E:\\C#\\Project\\Demo\\Mock_CarPark_Backend\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -288,14 +186,14 @@
         }
       }
     },
-    "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj": {
+    "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\CoreApp.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
-        "projectName": "CoreApp.Data.Dto",
-        "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
+        "projectUniqueName": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\CoreApp.Service.csproj",
+        "projectName": "CoreApp.Service",
+        "projectPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\CoreApp.Service.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\obj\\",
+        "outputPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -312,8 +210,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj": {
-                "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj"
+              "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj"
+              },
+              "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj": {
+                "projectPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj"
               }
             }
           }
@@ -328,6 +229,102 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
+        "projectName": "CoreApp.Data.Dto",
+        "projectPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

@@ -6,13 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Common.Dto.Base;
-using Common.UnitOfWork;
+
 using CoreApp.Data.Dto.Dto;
 using CoreApp.Data.Dto.Request.Employee;
 using CoreApp.Data.Dto.Response.Employee;
 using CoreApp.Data.Entity;
 using CoreApp.Data.Repository;
-
+using CoreApp.Data.Unit_of_Work;
 using CoreApp.Service.Interfaces;
 using Microsoft.AspNetCore.Identity;
 

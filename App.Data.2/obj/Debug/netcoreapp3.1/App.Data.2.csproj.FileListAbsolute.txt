@@ -1,0 +1,13 @@
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.csproj.AssemblyReference.cache
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.AssemblyInfoInputs.cache
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.AssemblyInfo.cs
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.csproj.CoreCompileInputs.cache
+E:\C#\Project\Demo\App_Demo\App.Data.2\bin\Debug\netcoreapp3.1\App.Data.2.deps.json
+E:\C#\Project\Demo\App_Demo\App.Data.2\bin\Debug\netcoreapp3.1\App.Data.2.runtimeconfig.json
+E:\C#\Project\Demo\App_Demo\App.Data.2\bin\Debug\netcoreapp3.1\App.Data.2.runtimeconfig.dev.json
+E:\C#\Project\Demo\App_Demo\App.Data.2\bin\Debug\netcoreapp3.1\App.Data.2.dll
+E:\C#\Project\Demo\App_Demo\App.Data.2\bin\Debug\netcoreapp3.1\App.Data.2.pdb
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.dll
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.pdb
+E:\C#\Project\Demo\App_Demo\App.Data.2\obj\Debug\netcoreapp3.1\App.Data.2.genruntimeconfig.cache

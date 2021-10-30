@@ -1919,7 +1919,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Common": "1.0.0"
+          "FluentValidation": "10.3.4"
         },
         "compile": {
           "bin/placeholder/CoreApp.Data.Dto.dll": {}
@@ -6631,8 +6631,8 @@
     },
     "Common/1.0.0": {
       "type": "project",
-      "path": "../Common/Common.csproj",
-      "msbuildProject": "../Common/Common.csproj"
+      "path": "../../../C#/Project/Demo/Mock_CarPark_Backend/Common/Common.csproj",
+      "msbuildProject": "../../../C#/Project/Demo/Mock_CarPark_Backend/Common/Common.csproj"
     },
     "CoreApp.Data/1.0.0": {
       "type": "project",
@@ -6648,7 +6648,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 10.1.1",
-      "Common >= 1.0.0",
       "CoreApp.Data >= 1.0.0",
       "CoreApp.Data.Dto >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.20",
@@ -6663,11 +6662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\CoreApp.Service.csproj",
+      "projectUniqueName": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\CoreApp.Service.csproj",
       "projectName": "CoreApp.Service",
-      "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\CoreApp.Service.csproj",
+      "projectPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\CoreApp.Service.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Project\\Demo\\App_Demo\\ClassLibrary1\\obj\\",
+      "outputPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6687,11 +6686,8 @@
             "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj": {
               "projectPath": "C:\\Users\\DELL\\Desktop\\App_Demo\\CoreApp.Model\\CoreApp.Data.csproj"
             },
-            "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj": {
-              "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj"
-            },
-            "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj": {
-              "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj"
+            "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj": {
+              "projectPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj"
             }
           }
         }

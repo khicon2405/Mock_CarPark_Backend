@@ -21,7 +21,7 @@ using Microsoft.EntityFrameworkCore;
 using CoreApp.Data.DBContext;
 using CoreApp.Data.Repository;
 using CoreApp.Service.AutoMapper;
-using Common.UnitOfWork;
+
 using CoreApp.Data.Unit_of_Work;
 
 namespace App_Demo
@@ -67,6 +67,8 @@ namespace App_Demo
            services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddTransient<IBookingOfficeService, BookingOfficeService>();
+            services.AddTransient<ITicketService, TicketService>();
+            services.AddTransient<ICarService, CarService>();
             services.AddTransient<ITripService, TripService>();
             services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddTransient<IParkingLotService, ParkingLotService>();

@@ -9,7 +9,6 @@
       "CoreApp.Service/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "Common": "1.0.0",
           "CoreApp.Data": "1.0.0",
           "CoreApp.Data.Dto": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.20",
@@ -1204,14 +1203,6 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Common/1.0.0": {
-        "dependencies": {
-          "FluentValidation": "10.3.4"
-        },
-        "runtime": {
-          "Common.dll": {}
-        }
-      },
       "CoreApp.Data/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
@@ -1226,7 +1217,7 @@
       },
       "CoreApp.Data.Dto/1.0.0": {
         "dependencies": {
-          "Common": "1.0.0"
+          "FluentValidation": "10.3.4"
         },
         "runtime": {
           "CoreApp.Data.Dto.dll": {}
@@ -2114,11 +2105,6 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
-    },
-    "Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "CoreApp.Data/1.0.0": {
       "type": "project",

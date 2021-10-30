@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Common.Dto.Base;
-using Common.UnitOfWork;
+
 using CoreApp.Data.Dto.Dto;
 using CoreApp.Data.Dto.Request.Ticket;
 using CoreApp.Data.Entity;
 using CoreApp.Data.Repository;
+using CoreApp.Data.Unit_of_Work;
 using CoreApp.Service.Interfaces;
 
 namespace CoreApp.Service.Implements
@@ -25,7 +27,7 @@ namespace CoreApp.Service.Implements
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
-        public  async Task<BaseResponse> Create(CreateNewTicketRequest request)
+        public async Task<BaseResponse> Create(CreateNewTicketRequest request)
         {
             var response = new BaseResponse();
             try
@@ -36,24 +38,77 @@ namespace CoreApp.Service.Implements
                 response.Success = true;
 
                 return await Task.FromResult(response).ConfigureAwait(false);
-            } catch(Exception e) {
+            }
+            catch (Exception e)
+            {
                 return response;
             }
         }
 
-        public Task<BaseResponse> Delete(long id)
+        public async Task<BaseResponse> Delete(long id)
         {
-            throw new NotImplementedException();
+            var response = new BaseResponse();
+            try
+            {
+                await _ticketRepository.Delete(id);
+                _unitOfWork.Commit();
+                response.Success = true;
+                return await Task.FromResult(response).ConfigureAwait(false);
+
+            }
+            catch (Exception e)
+            {
+                return response;
+            }
         }
 
-        public Task<TicketDTO> GetById(long id)
+        public async Task<TicketDTO> GetById(long id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var data = await _ticketRepository.GetById(id);
+                var response = _mapper.Map<TicketDTO>(data);
+                return await Task.FromResult(response).ConfigureAwait(false);
+            }
+            catch (Exception e)
+            {
+                Debug.Write(e.ToString());
+                return null;
+            }
         }
 
-        public Task<BaseResponse<List<TripDTO>>> GetAll()
+        public async Task<BaseResponse<List<TicketDTO>>> GetAll()
         {
-            throw new NotImplementedException();
+            var response = new BaseResponse<List<TicketDTO>>();
+            try
+            {
+                var all =  _ticketRepository.FindAll();
+                _unitOfWork.Commit();
+                if (all != null)
+                {
+                    
+                    List<TicketDTO> result = _mapper.Map<List<TicketDTO>>(all);
+
+                    response.Data = result;
+                    response.Success = true;
+                    return response;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Errors = "Error";
+                    return response;
+                }
+
+
+                return await Task.FromResult(response).ConfigureAwait(false);
+            }
+            catch (Exception e)
+            {
+
+                return response;
+            }
+           
         }
 
 

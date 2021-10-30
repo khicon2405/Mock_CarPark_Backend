@@ -12,13 +12,14 @@ namespace CoreApp.Service.Interfaces
     public interface ICarService
     {
         public Task<BaseResponse> Create(CreateCarRequest request);
+         public Task<BaseResponse<List<CarDTO>>> GetAll();
 
         public Task<BaseResponse> Update(UpdateCarRequest request);
 
-        public Task<BaseResponse> Delete(string id);
+        public Task<BaseResponse> Delete(long id);
 
-        public Task<CarDTO> GetById(string id);
+        public Task<CarDTO> GetById(long id);
 
-        public Task<PagingSearchCarResponse> GetByPagingAndFilter(BasePagingSearchRequest request);
-    }
+/*        public Task<PagingSearchCarResponse> GetByPagingAndFilter(BasePagingSearchRequest request);
+*/    }
 }

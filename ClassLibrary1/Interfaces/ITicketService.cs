@@ -20,6 +20,6 @@ namespace CoreApp.Service.Interfaces
         /* public Task<PagingSearchEmployeeResponse> GetByPagingAndFilter(BasePagingSearchRequest request);*/
         /* public IQueryable<EmployeeDTO> FindAll();*/
 
-        public Task<BaseResponse<List<TripDTO>>> GetAll();
+        public Task<BaseResponse<List<TicketDTO>>> GetAll();
     }
 }

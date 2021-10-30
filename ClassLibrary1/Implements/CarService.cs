@@ -6,12 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Common.Dto.Base;
-using Common.UnitOfWork;
+
 using CoreApp.Data.Dto.Dto;
 using CoreApp.Data.Dto.Request.Car;
 using CoreApp.Data.Dto.Response.Car;
 using CoreApp.Data.Entity;
 using CoreApp.Data.Repository;
+using CoreApp.Data.Unit_of_Work;
 using CoreApp.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -48,8 +49,39 @@ namespace CoreApp.Service.Implements
                 return response;
             }
         }
+        public async Task<BaseResponse<List<CarDTO>>> GetAll()
+        {
+            var response = new BaseResponse<List<CarDTO>>();
+            try
+            {
+                var all =  _carRepository.FindAll();
+                _unitOfWork.Commit();
+                if (all != null)
+                {
+                    
+                    List<CarDTO> result = _mapper.Map<List<CarDTO>>(all);
 
-        public async Task<BaseResponse> Delete(string id)
+                    response.Data = result.ToList();
+                    response.Success = true;
+                    return response;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Errors = "Error";
+                    return response;
+                }
+
+
+                return await Task.FromResult(response).ConfigureAwait(false);
+            }
+            catch (Exception e)
+            {
+
+                return response;
+            }
+        }
+        public async Task<BaseResponse> Delete(long id)
         {
             var response = new BaseResponse();
             try
@@ -67,7 +99,7 @@ namespace CoreApp.Service.Implements
             }
         }
 
-        public async Task<PagingSearchCarResponse> GetByPagingAndFilter(BasePagingSearchRequest request)
+       /* public async Task<PagingSearchCarResponse> GetByPagingAndFilter(BasePagingSearchRequest request)
         {
             var response = new PagingSearchCarResponse();
             try
@@ -115,15 +147,15 @@ namespace CoreApp.Service.Implements
                 Debug.Write(e.ToString());
                 return response;
             }
-        }
+        }*/
 
-        public async Task<CarDTO> GetById(string id)
+        public async Task<CarDTO> GetById(long id)
         {
             try
             {
                 var data = _carRepository.GetDbSet().
                     Include(item => item.ParkingLot).
-                    FirstOrDefault(item => item.LisensePlate == id);
+                    FirstOrDefault(item => item.LisensePlate == id.ToString());
                 var response = _mapper.Map<CarDTO>(data);
                 return await Task.FromResult(response).ConfigureAwait(false);
             }

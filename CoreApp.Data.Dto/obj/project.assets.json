@@ -230,19 +230,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
-      },
-      "Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "FluentValidation": "10.3.4"
-        },
-        "compile": {
-          "bin/placeholder/Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Common.dll": {}
-        }
       }
     }
   },
@@ -754,16 +741,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Common/1.0.0": {
-      "type": "project",
-      "path": "../Common/Common.csproj",
-      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Common >= 1.0.0",
+      "FluentValidation >= 10.3.4",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11"
     ]
   },
@@ -773,11 +755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
+      "projectUniqueName": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
       "projectName": "CoreApp.Data.Dto",
-      "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
+      "projectPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\CoreApp.Data.Dto.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Project\\Demo\\App_Demo\\CoreApp.Data.Dto\\obj\\",
+      "outputPath": "E:\\Github_Khicon240598\\Mock_CarPark_Backend\\CoreApp.Data.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -793,11 +775,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj": {
-              "projectPath": "E:\\C#\\Project\\Demo\\App_Demo\\Common\\Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -810,6 +788,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[10.3.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
